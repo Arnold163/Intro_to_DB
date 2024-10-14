@@ -2,8 +2,8 @@
 CREATE DATABASE IF NOT EXISTS alx_book_store;
 USE alx_book_store;
 CREATE TABLE Authors(
-    Author_id INT PRIMARY KEY AUTO_INCREMENT,
-    Author_name VARCHAR(215) NOT NULL   
+    author_id INT PRIMARY KEY AUTO_INCREMENT,
+    author_name VARCHAR(215) NOT NULL   
 );
 
 CREATE TABLE Books(
